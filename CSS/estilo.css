@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Sarala&display=swap');
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #000000 16.62%, #1C1C1C 85.61%);
+  width: 996px;
+  height: 616;
+
+}
+
+.banner{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+
+}
+
+.banner-imagem{
+  height: 270px;
+  width: 780px;
+  box-shadow: 10px 5px 10px #000000;
+  margin-left: 30%;
+}
+
+.conteudo{
+  margin-left: 10%;
+  margin-bottom: 48px;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr;
+  grid-template-areas: 
+  "nav conteudo conteudo ";
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
+  color: antiquewhite;
+  margin-left: 200%;
+  margin-top: -460%;
+
+}
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.conteudo-principal-escrito-titulo{
+  margin-top: 10px;
+  font-family: 'Goldman', cursive;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+  font-family: 'Sarala', cursive;
+  color: rgb(171, 183, 223);
+  align-items: center;
+  margin-left: 10%;
+  margin-top: -20%;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.conteudo-secundario{
+ display: flexbox;
+ align-items:right;
+ gap: 24px;
+ margin-left: -180%;
+}
+
+.conteudo-secundario-titulo{
+  color: antiquewhite;
+  font-family:'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.conteudo-secundario-botao{
+  color: black;
+  font-family:'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  width: 80px;
+  height: 30px;
+  border: none;
+  box-shadow: 4px 5px 4px #000000;
+  border-radius: 30px;
+  margin-bottom: 5%;
+}
+.conteudo-secundario-botao:hover{
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-secundario-titulo-dois{
+  color: antiquewhite;
+  font-family:'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.conteudo-secundario-botao-dois{
+  color: black;
+  font-family:'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  width: 80px;
+  height: 30px;
+  border: none;
+  box-shadow: 4px 5px 4px #000000;
+  border-radius: 30px;
+  margin-bottom: 5%;
+}
+.conteudo-secundario-botao-dois:hover{
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-secundario-titulo-tres{
+  color: antiquewhite;
+  font-family:'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.conteudo-secundario-botao-tres{
+  color: black;
+  font-family:'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  width: 80px;
+  height: 30px;
+  border: none;
+  box-shadow: 4px 5px 4px #000000;
+  border-radius: 30px;
+  margin-bottom: 5%;
+}
+.conteudo-secundario-botao-tres:hover{
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-secundario-titulo-quatro{
+  color: antiquewhite;
+  font-family:'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.conteudo-secundario-botao-quatro{
+  color: black;
+  font-family:'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  width: 80px;
+  height: 30px;
+  border: none;
+  box-shadow: 4px 5px 4px #000000;
+  border-radius: 30px;
+  margin-bottom: 5%;
+}
+.conteudo-secundario-botao-quatro:hover{
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-secundario-titulo-cinco{
+  color: antiquewhite;
+  font-family:'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.conteudo-secundario-botao-cinco{
+  color: black;
+  font-family:'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  width: 80px;
+  height: 30px;
+  border: none;
+  box-shadow: 4px 5px 4px #000000;
+  border-radius: 30px;
+  margin-bottom: 5%;
+}
+.conteudo-secundario-botao-cinco:hover{
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.bloco-videos{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-end: auto;
+  grid-gap: 10px;
+  grid-template-areas: 
+  'bloco-videos-um blocos-videos-dois'
+  'bloco-videos-tres blocos-videos-quatro';
+  margin-left: 27%
+  
+}
+
+.rodape {
+  padding: 50px;
+
+}
+
+.rodape-imagem{
+  height: 360px;
+  width: 680px;
+  display: block;
+  margin-left: 30%;
+  align-items:baseline;
+  margin-bottom: -5%;
+}
